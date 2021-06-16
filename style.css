@@ -1,0 +1,168 @@
+
+ .navigation {
+    background-color: #6EE7B7;
+    padding-top: 0px;
+    font-size: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    border-bottom-left-radius: 20px;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 10px;
+    overflow: hidden;
+    margin: 0px;
+}
+
+.nav a {
+    display: block;
+    text-align: right;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    float: right;
+}
+
+.hd{
+    padding-left: 10px;
+}
+
+li a:hover {
+    color: darkcyan;
+    font-style: bold;
+}
+
+.home {
+    font-weight: bold;
+}
+.blog {
+    font-weight: bold;
+}
+
+nav ul active {
+    color: darkcyan;
+}
+
+.hero {
+    padding-top: 170px;
+    width: 300px;
+    height: 200px;
+    display: block;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.container {
+    text-align: center;
+}
+
+.center{
+    max-width: 600px;
+    margin: auto;
+}
+
+.foot {
+    background-color: #6EE7B7;
+    padding: 2rem 0rem;
+    border-top-right-radius: 20px;
+    text-align: center;
+}
+
+.foot-menu {
+    list-style-type: none;
+    padding: 8px;
+}
+
+.footer-list-item {
+    padding: 10px;
+    color: black;
+    font-size: 20px;
+    display: inline;
+}
+
+.footer-list-item .active {
+    text-decoration: none;
+    color: #000000;
+}
+
+section {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.off-white-section {
+    background-color: #EDF5E1;
+    max-width: 100%;
+}
+
+body{
+    margin: 0px;
+}
+
+.projects {
+background-color: #6EE7B7;
+color:  black;
+padding: 10px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+border-radius: 8px;
+}
+.blogs {
+background-color: white;
+color:  #6EE7B7;
+padding: 10px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+border-radius: 8px;
+border: 2px solid  #6EE7B7;
+}
+
+
+
+.body{
+    font-family: PT serif, serif;
+    font-size: 18px;
+}
+.head{
+    text-align: center;
+    color:#6EE7B7;
+    font-weight: bold; 
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 40%;
+    background-color: bisque;
+    max-width: 600px;
+    margin: auto;
+}
+
+.span{
+    color: #05386B;
+}
+
+.link{
+    list-style-type: none;
+    
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+.img{
+    width: 500px;
+    height:400px;
+}
+.image{
+    text-align: center;
+}
+.list-item{
+list-style-type: none;
+}
