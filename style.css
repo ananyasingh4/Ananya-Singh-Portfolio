@@ -35,10 +35,7 @@ li a:hover {
     font-style: bold;
 }
 
-.home {
-    font-weight: bold;
-}
-.blog {
+.home, .blog, .project{
     font-weight: bold;
 }
 
@@ -47,7 +44,7 @@ nav ul active {
 }
 
 .hero {
-    padding-top: 170px;
+    padding-top: 190px;
     width: 300px;
     height: 200px;
     display: block;
@@ -55,8 +52,6 @@ nav ul active {
     margin-left: auto;
     margin-right: auto;
 }
-
-
 .container {
     text-align: center;
 }
@@ -102,9 +97,11 @@ section {
 
 body{
     margin: 0px;
+    font-family: PT serif, serif; 
+    font-size: 18px;
 }
 
-.projects {
+.projects, .button1 {
 background-color: #6EE7B7;
 color:  black;
 padding: 10px 20px;
@@ -112,8 +109,12 @@ text-align: center;
 text-decoration: none;
 display: inline-block;
 border-radius: 8px;
+margin-bottom: 5px;
 }
-.blogs {
+.button1:hover, .button2:hover{
+background-color: #60caa0;
+}
+.blogs, .button2 {
 background-color: white;
 color:  #6EE7B7;
 padding: 10px 20px;
@@ -122,18 +123,14 @@ text-decoration: none;
 display: inline-block;
 border-radius: 8px;
 border: 2px solid  #6EE7B7;
+margin-bottom: 5px;
 }
 
-
-
-.body{
-    font-family: PT serif, serif;
-    font-size: 18px;
-}
 .head{
     text-align: center;
     color:#6EE7B7;
     font-weight: bold; 
+    font-size:40px;
 }
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -146,6 +143,7 @@ border: 2px solid  #6EE7B7;
 
 .span{
     color: #05386B;
+    font-size:40px;
 }
 
 .link{
