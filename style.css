@@ -7,6 +7,7 @@
     width: 100%;
     top: 0;
     border-bottom-left-radius: 20px;
+    box-shadow: 2px 0px 11px rgba(0, 0, 0, 0.452);
 }
 
 .menu {
@@ -58,7 +59,8 @@ nav ul active {
 
 .center{
     max-width: 600px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .foot {
@@ -66,6 +68,10 @@ nav ul active {
     padding: 2rem 0rem;
     border-top-right-radius: 20px;
     text-align: center;
+    box-shadow: 2px 0px 11px rgba(0, 0, 0, 0.452);
+    position:relative;
+    bottom: -18px;
+    margin-top: -15px;
 }
 
 .foot-menu {
